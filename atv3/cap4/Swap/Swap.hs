@@ -1,5 +1,5 @@
 
-
+swap :: [Int] -> Int -> Int -> [Int]
 swap xs p1 p2
     | p1 < size && p2 < size = left ++ (xs !! p2):miolo ++ (xs !! p1):right
     | otherwise = xs
